@@ -1,0 +1,191 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+/* Referente ao cabeçalho*/
+
+header, div{
+
+    box-sizing: border-box;
+   
+}
+header {
+    position: relative;
+    max-width:100%;
+    height:120px;
+    top: 0px;
+    right:0px;
+    left:0px;
+    margin:auto;
+}
+
+ /* Referente ao Logotipo*/ 
+#Logo {
+    position:fixed;
+    width:120px;
+    height:120px;
+    top:0px;  
+    bottom: 0px;
+    left: 0px;
+    padding: px;
+    
+}
+  
+ #superior {
+    position:fixed;
+    top:30px;
+    right: 0px;
+    bottom: 60px;
+    left:180px;
+    width:1198px;
+    height:45px;
+    border: 1px solid rgb(233, 112, 13);
+    background-color: rgba(202, 128, 75, 0.788);
+  } 
+
+ #inferior {
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    left: 180px;
+    width: 1220px;
+    bottom:0px;
+    height:110px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    text-align:left;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 255, 0.1);
+    background-color: rgba(198, 124, 71, 0.466);
+}
+
+/* Referente ao blackground*/
+body, html{
+
+    height: 100%;
+    margin: 0;
+    
+}
+
+p {
+    margin: 0;
+    text-indent: 3ch;
+  }
+
+.bg{
+    background-image: url("css/CafeInicial.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:0px;
+    background-attachment: fixed;
+    padding:0px;
+
+}
+
+/* Referente ao texto de convite*/
+.text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 20px;
+    font-style:normal;
+    color: rgb(255, 255, 255);
+}
+
+/* Referente aos elementos do menu*/ 
+#menu ul {
+    margin-left: 50%;
+    list-style:none;
+    width:100%;
+    padding:15px;
+
+
+
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 25px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #911919;
+    
+}
+
+#menu ul li a:hover {
+    background-color:#291f1f;
+    color: #6D6D6D;
+    border-radius: 1rem;
+    border-bottom:3px solid #EA0000;
+}
+
+/* Reeferente aos inputs*/
+
+#form, label{
+
+      display: block;
+      padding: 2px;
+    }
+    form {
+      width: 270px;
+      margin: 25px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    label {
+      color: #FFF;
+      text-align: right;
+    }
+    input {
+      display: inline-block;
+      padding-left: 20px;
+}
+
+/* Referente aos elementos do menu*/ 
+
+  li {
+    list-style: none;
+  }
+  
+  body {
+    height: 5px;
+    background:rgba(198, 124, 71, 0.466);
+    align-items:flex-start;
+    padding-block-start: 10%;
+  }
+  
+  .countdown {
+    display:flex;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+    justify-content:center;
+    margin:10px;
+    gap: 20px; /* Distância entre os boxs*/
+    padding: top 2px; /* Valores maiores afastam do topo*/
+ 
+  }
+  
+  .countdown li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:normal;
+    padding:1rem;
+    color:rgb(194, 245, 8);
+    background: #070707;
+    border-radius: 50px;
+    text-align:center;
+  }
+  
+  .countdown li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+  }
